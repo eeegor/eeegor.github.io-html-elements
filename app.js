@@ -15,4 +15,9 @@ fetch('./html-5-elements.json')
 		htmlString += '</div>'
 	});
 	document.getElementById('styleguide__element-list').innerHTML = htmlString;
-  })
+	})
+	
+	function setStyleSheet(url){
+		var stylesheet = document.getElementById("stylesheet");
+		stylesheet.setAttribute('href', url);
+ }
