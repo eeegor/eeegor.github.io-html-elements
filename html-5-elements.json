@@ -43,9 +43,9 @@
 	},
 	{
 		"name": "abbr",
-		"details": "Abbriviation element",
+		"details": "Abbreviation element",
 		"display": "inline",
-		"example": "<abbr>I'm an abbriviation</abbr>",
+		"example": "<abbr>I'm an abbreviation</abbr>",
 		"attributes": [
 			{
 				"name": "title"
