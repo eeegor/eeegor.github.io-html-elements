@@ -1,0 +1,1114 @@
+[
+	{
+		"name": "a",
+		"display": "inline",
+		"details": "Creates a clickable link to a given resource",
+		"example": "<a href=\"#\">I'm a link</a>",
+		"attributes": [
+			{ 
+				"name": "href", 
+				"required": true,
+				"examples": [
+					{
+						"example": "<a href=\"#\">I'm a link</a>",
+						"details": "Link to an element with given id on the same page"
+					},
+					{
+						"example": "<a href=\"/hello\">I'm a link</a>",
+						"details": "Link to a relative subpage"
+					},
+					{
+						"example": "<a href=\"http://example.com\">I'm a link</a>",
+						"details": "Link to a absolute url"
+					},
+					{
+						"example": "<a href=\"mailto://mail@example.com\">I'm a link</a>",
+						"details": "Use mailto protocol"
+					}
+				]
+			},
+			{ 
+				"name": "target",
+				"examples": [
+					{
+						"example": "<a href=\"#\" target=\"_blank\">I'm a link</a>",
+						"details": "Open the link in a new tab"
+					}
+				]
+			},
+			{ 
+				"name": "rel" 
+			}
+		]
+	},
+	{
+		"name": "abbr",
+		"details": "Abbriviation element",
+		"display": "inline",
+		"example": "<abbr>I'm an abbriviation</abbr>",
+		"attributes": [
+			{
+				"name": "title"
+			}
+		]
+	},
+	{
+		"name": "address",
+		"details": "Address element",
+		"display": "block",
+		"example": "<address>Example street 23,<br>10707 Berlin<br>Germany</address>"
+	},
+	{
+		"name": "area",
+		"display": "inline",
+		"details": "Area element to use with media",
+		"example": "<img src=\"/images/world-continents.png\" width=\"320\" height=\"160\" orgwidth=\"320\" orgheight=\"160\" usemap=\"#world-continents\"><map name=\"world-continents\"><area title=\"North America\" href=\"https://en.wikipedia.org/wiki/North_America\" shape=\"poly\" coords=\"48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69\"><area title=\"South America\" href=\"https://en.wikipedia.org/wiki/South_America\" shape=\"poly\" coords=\"48,88,61,74,119,99,95,160,66,159\"><area title=\"Europe\" href=\"https://en.wikipedia.org/wiki/Europe\" shape=\"poly\" coords=\"124,49,145,46,158,50,187,43,198,6,146,1,115,21\"><area title=\"Africa\" href=\"https://en.wikipedia.org/wiki/Africa\" shape=\"poly\" coords=\"121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86\"><area title=\"Asia\" href=\"https://en.wikipedia.org/wiki/Asia\" shape=\"poly\" coords=\"166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42\"><area title=\"Australia\" href=\"https://en.wikipedia.org/wiki/Australia_(continent)\" shape=\"poly\" coords=\"257,107,263,85,314,89,316,137,294,151,249,132,248,114\"></map>",
+		"attributes": [
+			{
+				"name": "title"
+			},
+			{
+				"name": "shape"
+			},
+			{
+				"name": "coords"
+			},
+			{
+				"name": "href"
+			},
+			{
+				"name": "target"
+			}
+		]
+	},
+	{
+		"name": "article",
+		"details": "The article element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable ",
+		"display": "block",
+		"example": "<article><header><h1>Post title</h1></header><section><p>Some content</p></section><footer><span>Posted on: 15.10.2018</span></footer></article>"
+	},
+	{
+		"name": "aside",
+		"display": "block",
+		"example": "<main><h1>Title</h1><p>Description</p></main><aside><h2>Navigation</h2><ul><li>Home</li><li>About</li></ul></aside>"
+	},
+	{
+		"name": "audio",
+		"display": "block",
+		"example": "<audio src=\"/assets/Hal.mp3\" controls></audio>",
+		"attributes": [
+			{
+				"name": "src",
+				"required": true
+			},
+			{
+				"name": "volume"
+			},
+			{
+				"name": "autoplay"
+			},
+			{
+				"name": "controls"
+			},
+			{
+				"name": "loop"
+			},
+			{
+				"name": "muted"
+			},
+			{
+				"name": "preload"
+			}
+		]
+	},
+	{
+		"name": "b",
+		"display": "inline",
+		"example": "I'm a <b>bold</b> element"
+	},
+	{
+		"name": "base",
+		"self-closing": true,
+		"example": "<base href=\"/\">",
+		"meta": true,
+		"attributes": [
+			{
+				"name": "href"
+			},
+			{
+				"name": "target"
+			}
+		]
+	},
+	{
+		"name": "bdi",
+		"display": "inline",
+		"example": "Bidirectional isolation: <bdi>مرحبا</bdi>"
+	},
+	{
+		"name": "bdo",
+		"display": "inline",
+		"example": "Bidirectional override: <bdo dir=\"rtl\">Hello</bdo>",
+		"attributes": [
+			{
+				"name": "dir"
+			}
+		]
+	},
+	{
+		"name": "blockquote",
+		"display": "block",
+		"example": "<blockquote cite=\"https://en.wikiquote.org/wiki/Marie_Curie\">Be less curious about people and more curious about ideas.</blockquote>",
+		"attributes": [
+			{
+				"name": "cite"
+			}
+		]
+	},
+	{
+		"name": "body",
+		"display": "block",
+		"example": "<body><h1>Title</h1><p>Description</p></body>"
+	},
+	{
+		"name": "br",
+		"self-closing": true,
+		"display": "inline",
+		"example": "<p>Hello<br />Friend</p>"
+	},
+	{
+		"name": "button",
+		"display": "inline",
+		"example": "<button>Click me!</button>",
+		"attributes": [
+			{
+				"name": "name"
+			},
+			{
+				"name": "value"
+			},
+			{
+				"name": "type"
+			},
+			{
+				"name": "disabled"
+			},
+			{
+				"name": "autofocus"
+			}
+		]
+	},
+	{
+		"name": "canvas",
+		"display": "block",
+		"example": "<canvas>Fallback</canvas>",
+		"attributes": [
+			{
+				"name": "height"
+			},
+			{
+				"name": "width"
+			}
+		]
+	},
+	{
+		"name": "caption",
+		"display": "block",
+		"example": "<table><caption>Table caption</caption><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></table>"
+	},
+	{
+		"name": "cite",
+		"display": "inline",
+		"example": "Define a source of content <cite>example.com</cite>"
+	},
+	{
+		"name": "code",
+		"display": "inline",
+		"example": "Type <code>yarn</code> in your terminal"
+	},
+	{
+		"name": "col",
+		"self-closing": true,
+		"display": "inline",
+		"example": "<table><colgroup><col style=\"background-color: #dfdfdf\"><col span=\"2\" style=\"background-color: #f5f5f5\"></colgroup><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></table>",
+		"attributes": [
+			{
+				"name": "span"
+			}
+		]
+	},
+	{
+		"name": "colgroup",
+		"display": "block",
+		"example": "<table><colgroup><col style=\"background-color: #dfdfdf\"><col span=\"2\" style=\"background-color: #f5f5f5\"></colgroup><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></table>"
+	},
+	{
+		"name": "check:command",
+		"details": "",
+		"example": ""
+	},
+	{
+		"name": "data",
+		"display": "inline",
+		"example": "<data value=\"100\">One hundred</data>",
+		"attributes": [
+			{
+				"name": "value"
+			}
+		]
+	},
+	{
+		"name": "datalist",
+		"display": "block",
+		"example": "<label>Type a, b or c</label><br><input list=\"choices\" placeholder=\"Type something\"><datalist id=\"choices\"><option value=\"a\" /><option value=\"b\" /><option value=\"c\" /></datalist>"
+	},
+	{
+		"name": "dd",
+		"display": "inline",
+		"example": "<dl><dd>HTML Description Element</dd></dl>"
+	},
+	{
+		"name": "del",
+		"display": "inline",
+		"example": "<del>Deleted</del> text",
+		"attributes": [
+			{
+				"name": "cite"
+			},
+			{
+				"name": "datettime"
+			}
+		]
+	},
+	{
+		"name": "details",
+		"display": "block",
+		"example": "<details><summary>Read more</summary><p>Content here</p></details>",
+		"attributes": [
+			{
+				"name": "open"
+			}
+		]
+	},
+	{
+		"name": "dfn",
+		"display": "inline",
+		"example": "Intenet is part of the <dfn>World Wide Web</dfn>"
+	},
+	{
+		"name": "dialog",
+		"display": "block",
+		"experimental": true,
+		"example": "<dialog>This is a dialog box!</dialog>",
+		"attributes": [
+			{
+				"name": "open"
+			}
+		]
+	},
+	{
+		"name": "div",
+		"display": "block",
+		"example": "<div>Simple block element</div>"
+	},
+	{
+		"name": "dl",
+		"display": "block",
+		"example": "<dl><dt>Definition list item one</dt><dt>Definition list item two</dt></dl>"
+	},
+	{
+		"name": "dt",
+		"example": "<dl><dt>Definition list item one</dt><dt>Definition list item two</dt></dl>"
+	},
+	{
+		"name": "em",
+		"display": "inline",
+		"example": "This is <em>emphasised</em> text"
+	},
+	{
+		"name": "embed",
+		"self-closing": true,
+		"display": "block",
+		"example": "<embed src=\"https://www.youtube.com/embed/kmk43_2dtn0\" width=\"320\" height=\"240\">",
+		"attributes": [
+			{
+				"name": "src"
+			},
+			{
+				"name": "type"
+			},
+			{
+				"name": "height"
+			},
+			{
+				"name": "width"
+			}
+		]
+	},
+	{
+		"name": "fieldset",
+		"display": "block",
+		"example": "<form action=\"/subscribe\" method=\"post\"><fieldset><input type=\"email\" name=\"email\"><button>Ok</button></fieldset></form>",
+		"attributes": [
+			{
+				"name": "disabled"
+			}
+		]
+	},
+	{
+		"name": "figcaption",
+		"display": "block",
+		"example": "<figure><img src=\"/images/world-continents.png\" alt=\"World continents\"><figcaption>World continents</figcaption></figure>"
+	},
+	{
+		"name": "figure",
+		"display": "block",
+		"example": "<figure><img src=\"/images/world-continents.png\" alt=\"World continents\"></figure>"
+	},
+	{
+		"name": "footer",
+		"display": "block",
+		"example": "<footer>An example footer</footer>"
+	},
+	{
+		"name": "form",
+		"display": "block",
+		"example": "<form action=\"/signup\" method=\"post\"><p><label>Title</label><br><label><input type=\"radio\" name=\"title\" value=\"mr\">Mr</label><label><input type=\"radio\" name=\"title\" value=\"mrs\">Mrs</label></p><p><label>Name</label><br><input type=\"text\" name=\"name\"></p><p><label>Password</label><br><input type=\"password\" name=\"password\"></p><p><label>Country</label><br><select><option>China</option><option>India</option><option>United States</option><option>Indonesia</option><option>Brazil</option></select></p><p><label><input type=\"checkbox\" value=\"terms\">I agree to the <a href=\"/terms\">terms and conditions</a></label></p><p><button>Register</button><button type=\"reset\">Reset form</button></p></form>",
+		"attributes": [
+			{
+				"name": "action"
+			},
+			{
+				"name": "method"
+			},
+			{
+				"name": "name"
+			},
+			{
+				"name": "autocomplete"
+			},
+			{
+				"name": "target"
+			},
+			{
+				"name": "enctype"
+			},
+			{
+				"name": "novalidate"
+			}
+		]
+	},
+	{
+		"name": "h1",
+		"display": "block",
+		"example": "<h1>Main level title</h1>"
+	},
+	{
+		"name": "h2",
+		"display": "block",
+		"example": "<h2>Second level title</h2>"
+	},
+	{
+		"name": "h3",
+		"display": "block",
+		"example": "<h3>Third level title</h3>"
+	},
+	{
+		"name": "h4",
+		"display": "block",
+		"example": "<h4>Fourth level title</h4>"
+	},
+	{
+		"name": "h5",
+		"display": "block",
+		"example": "<h5>Fifth level title</h5>"
+	},
+	{
+		"name": "h6",
+		"display": "block",
+		"example": "<h6>Sixth level title</h6>"
+	},
+	{
+		"name": "head",
+		"display": "block",
+		"meta": true,
+		"example": "<head>\n  <!-- Document metadata -->\n</head>"
+	},
+	{
+		"name": "header",
+		"display": "block",
+		"example": "<header><h1>HTML Elements</h1><nav><a>Home</a><a>About</a><a>Contact</a></nav></header>"
+	},
+	{
+		"name": "hgroup",
+		"display": "block",
+		"experimental": true,
+		"example": "<hgroup><h1>Main title</h1><h2>Supporting title</h2></hgroup>"
+	},
+	{
+		"name": "hr",
+		"self-closing": true,
+		"example": "<hr />"
+	},
+	{
+		"name": "html",
+		"display": "block",
+		"meta": true,
+		"example": "<html>\n  <head>\n    ...\n  </head>\n  <body>\n    ...\n  </body>\n</html>"
+	},
+	{
+		"name": "i",
+		"display": "inline",
+		"example": "This will make the text <i>Italic</i>"
+	},
+	{
+		"name": "iframe",
+		"display": "block",
+		"example": "<iframe src=\"http://localhost:3000\">Fallback text for non-supported browsers</iframe>",
+		"attributes": [
+			{
+				"name": "src"
+			},
+			{
+				"name": "allowfullscreen"
+			},
+			{
+				"name": "height"
+			},
+			{
+				"name": "width"
+			}
+		]
+	},
+	{
+		"name": "img",
+		"self-closing": true,
+		"display": "inline",
+		"example": "<img src=\"/images/sunset.jpg\" alt=\"Picture of a Ha Long Bay sunset\">",
+		"attributes": [
+			{
+				"name": "src",
+				"required": true
+			},
+			{
+				"name": "alt",
+				"required": true
+			},
+			{
+				"name": "srcset"
+			},
+			{
+				"name": "sizes"
+			},
+			{
+				"name": "height"
+			},
+			{
+				"name": "width"
+			}
+		]
+	},
+	{
+		"name": "input",
+		"self-closing": true,
+		"display": "inline",
+		"example": "<input type=\"text\" name=\"first_name\" placeholder=\"e.g. Bob\">",
+		"attributes": [
+			{
+				"name": "type",
+				"required": true
+			},
+			{
+				"name": "name",
+				"required": true
+			},
+			{
+				"name": "placeholder"
+			},
+			{
+				"name": "required"
+			},
+			{
+				"name": "disabled"
+			}
+		]
+	},
+	{
+		"name": "ins",
+		"display": "inline",
+		"example": "The following text has been inserted <ins>I'm the inserted text</ins>",
+		"attributes": [
+			{
+				"name": "cite"
+			},
+			{
+				"name": "datettime"
+			}
+		]
+	},
+	{
+		"name": "kbd",
+		"display": "inline",
+		"example": "This is a keyboard shortcut example <kbd>Ctrl + S</kbd>"
+	},
+	{
+		"name": "check:keygen",
+		"details": "",
+		"example": ""
+	},
+	{
+		"name": "label",
+		"display": "inline",
+		"example": "<label for=\"first_name\">First name</label><br /><input type=\"text\" name=\"first_name\" id=\"first_name\">",
+		"attributes": [
+			{
+				"name": "for"
+			}
+		]
+	},
+	{
+		"name": "legend",
+		"display": "block",
+		"example": "<form action=\"/subscribe\" method=\"post\"><fieldset><legend>Subscribe to the Newsletter</legend><input type=\"email\" name=\"email\"><button>Ok</button></fieldset></form>"
+	},
+	{
+		"name": "li",
+		"example": "<ul><li>Step one</li><li>Step two</li><li>Step three</li></ul>"
+	},
+	{
+		"name": "link",
+		"meta": true,
+		"example": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/style.css\">",
+		"attributes": [
+			{
+				"name": "href"
+			},
+			{
+				"name": "rel"
+			},
+			{
+				"name": "type"
+			}
+		]
+	},
+	{
+		"name": "main",
+		"display": "block",
+		"example": "<main><h1>Title</h1><p>Description</p></main>"
+	},
+	{
+		"name": "map",
+		"display": "block",
+		"example": "<img src=\"/images/world-continents.png\" width=\"320\" height=\"160\" orgwidth=\"320\" orgheight=\"160\" usemap=\"#world-continents\"><map name=\"world-continents\"><area title=\"North America\" href=\"https://en.wikipedia.org/wiki/North_America\" shape=\"poly\" coords=\"48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69\"><area title=\"South America\" href=\"https://en.wikipedia.org/wiki/South_America\" shape=\"poly\" coords=\"48,88,61,74,119,99,95,160,66,159\"><area title=\"Europe\" href=\"https://en.wikipedia.org/wiki/Europe\" shape=\"poly\" coords=\"124,49,145,46,158,50,187,43,198,6,146,1,115,21\"><area title=\"Africa\" href=\"https://en.wikipedia.org/wiki/Africa\" shape=\"poly\" coords=\"121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86\"><area title=\"Asia\" href=\"https://en.wikipedia.org/wiki/Asia\" shape=\"poly\" coords=\"166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42\"><area title=\"Australia\" href=\"https://en.wikipedia.org/wiki/Australia_(continent)\" shape=\"poly\" coords=\"257,107,263,85,314,89,316,137,294,151,249,132,248,114\"></map>",
+		"attributes": [
+			{
+				"name": "name"
+			}
+		]
+	},
+	{
+		"name": "mark",
+		"display": "inline",
+		"example": "The following text is <mark>highlighted</mark>"
+	},
+	{
+		"name": "check:menu",
+		"details": "",
+		"example": ""
+	},
+	{
+		"name": "meta",
+		"meta": true,
+		"example": "<meta charset=\"UTF-8\">",
+		"attributes": [
+			{
+				"name": "charset"
+			},
+			{
+				"name": "http-equiv"
+			},
+			{
+				"name": "name"
+			},
+			{
+				"name": "content"
+			}
+		]
+	},
+	{
+		"name": "meter",
+		"display": "block",
+		"example": "<meter value=\"0.7\">Progress</meter>",
+		"attributes": [
+			{
+				"name": "value",
+				"required": true
+			},
+			{
+				"name": "max"
+			},
+			{
+				"name": "min"
+			},
+			{
+				"name": "low"
+			},
+			{
+				"name": "high"
+			}
+		]
+	},
+	{
+		"name": "nav",
+		"display": "block",
+		"example": "<nav><a href=\"/\">Home</a><a href=\"/about\">About</a><a href=\"/contact\">Contact</a></nav>"
+	},
+	{
+		"name": "noframes",
+		"display": "block",
+		"example": "<frameset><noframes>This browser does not support framesets.</noframes></frameset>"
+	},
+	{
+		"name": "noscript",
+		"display": "block",
+		"meta": true,
+		"example": "<noscript>Please enable JavaScript.</noscript>"
+	},
+	{
+		"name": "object",
+		"display": "block",
+		"example": "<object type=\"application/x-shockwave-flash\" data=\"/assets/golf.swf\" width=\"800\" height=\"360\"><param name=\"movie\" value=\"/assets/golf.swf\"><param name=\"wmode\" value=\"transparent\"><p>You need to enable Flash to view this content.</p></object>",
+		"attributes": [
+			{
+				"name": "data"
+			},
+			{
+				"name": "type"
+			},
+			{
+				"name": "height"
+			},
+			{
+				"name": "width"
+			}
+		]
+	},
+	{
+		"name": "ol",
+		"display": "block",
+		"example": "<ol><li>Step one</li><li>Step two</li><li>Step three</li></ol>",
+		"attributes": [
+			{
+				"name": "type"
+			},
+			{
+				"name": "start"
+			},
+			{
+				"name": "reversed"
+			}
+		]
+	},
+	{
+		"name": "optgroup",
+		"display": "block",
+		"example": "<select><optgroup label=\"abc\"><option>a</option><option>b</option><option>c</option</optgroup><optgroup label=\"xyz\"><option>x</option><option>y</option><option>z</option</optgroup></select>"
+	},
+	{
+		"name": "option",
+		"details": "",
+		"example": "<select><option>a</option><option>b</option><option>c</option</select>",
+		"attributes": [
+			{
+				"name": "value"
+			},
+			{
+				"name": "label"
+			},
+			{
+				"name": "disabled"
+			},
+			{
+				"name": "selected"
+			}
+		]
+	},
+	{
+		"name": "output",
+		"display": "inline",
+		"example": "<form oninput=\"sum.value = parseInt(a.value) + parseInt(b.value)\"><input type=\"number\" name=\"a\" value=\"4\">+<input type=\"number\" name=\"b\" value=\"7\">=<output name=\"sum\">11</output></form>",
+		"attributes": [
+			{
+				"name": "name"
+			}
+		]
+	},
+	{
+		"name": "p",
+		"display": "block",
+		"example": "<p>Hello World</p>"
+	},
+	{
+		"name": "param",
+		"self-closing": true,
+		"example": "<object type=\"application/x-shockwave-flash\" data=\"/assets/golf.swf\" width=\"800\" height=\"360\"><param name=\"movie\" value=\"/assets/golf.swf\"><param name=\"wmode\" value=\"transparent\"><p>You need to enable Flash to view this content.</p></object>",
+		"attributes": [
+			{
+				"name": "name"
+			},
+			{
+				"name": "value"
+			}
+		]
+	},
+	{
+		"name": "picture",
+		"experimental": true,
+		"example": "<picture><source media=\"(min-width: 800px)\" srcset=\"/images/sunset-360.jpg 360w, /images/sunset-720.jpg 720w, /images/sunset-1440.jpg 1440w\" sizes=\"33.3vw\"><source srcset=\"/images/sunset-720.jpg 2x, /images/sunset-360.jpg 1x\"> <img src=\"/images/sunset.jpg\" alt=\"Picture of a Ha Long Bay sunset\"></picture>"
+	},
+	{
+		"name": "pre",
+		"display": "block",
+		"example": "This is an example of <pre>preformatted</pre> text"
+	},
+	{
+		"name": "progress",
+		"display": "block",
+		"example": "<progress value=\"0.7\">Progress</progress>",
+		"attributes": [
+			{
+				"name": "value",
+				"required": true
+			},
+			{
+				"name": "max"
+			}
+		]
+	},
+	{
+		"name": "q",
+		"display": "inline",
+		"example": "This is a <q>short quotation</q>",
+		"attributes": [
+			{
+				"name": "cite"
+			}
+		]
+	},
+	{
+		"name": "rp",
+		"display": "inline",
+		"example": "<ruby>漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>字 <rp>(</rp><rt>ji</rt><rp>)</rp></ruby>"
+	},
+	{
+		"name": "rt",
+		"display": "inline",
+		"example": "<ruby>漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>字 <rp>(</rp><rt>ji</rt><rp>)</rp></ruby>"
+	},
+	{
+		"name": "rtc",
+		"display": "inline",
+		"example": "<ruby><rtc>Berlin</rtc></ruby>"
+	},
+	{
+		"name": "ruby",
+		"display": "block",
+		"example": "<ruby>漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>字 <rp>(</rp><rt>ji</rt><rp>)</rp></ruby>"
+	},
+	{
+		"name": "s",
+		"display": "inline",
+		"example": "I'm a <s>strikethrough</s> text"
+	},
+	{
+		"name": "samp",
+		"display": "inline",
+		"example": "I'm a <samp>sample output</samp> from a computer program"
+	},
+	{
+		"name": "script",
+		"meta": true,
+		"example": "<script src=\"https://example.com/script.js\"></script>",
+		"attributes": [
+			{
+				"name": "src"
+			},
+			{
+				"name": "type"
+			},
+			{
+				"name": "async"
+			}
+		]
+	},
+	{
+		"name": "section",
+		"display": "block",
+		"example": "<section><h2>Title</h2><p>Description</p></section>"
+	},
+	{
+		"name": "select",
+		"display": "block",
+		"example": "<select><option>a</option><option>b</option><option>c</option</select>",
+		"attributes": [
+			{
+				"name": "name",
+				"required": true
+			},
+			{
+				"name": "size"
+			},
+			{
+				"name": "multiple"
+			},
+			{
+				"name": "autofocus"
+			},
+			{
+				"name": "disabled"
+			},
+			{
+				"name": "required"
+			}
+		]
+	},
+	{
+		"name": "slot",
+		"display": "inline",
+		"experimental": true,
+		"example": "<slot>User defined content</stot>"
+	},
+	{
+		"name": "small",
+		"display": "inline",
+		"example": "I'm a <small>small text</small>"
+	},
+	{
+		"name": "source",
+		"self-closing": true,
+		"example": "<picture><source media=\"(min-width: 300px)\" srcset=\"/images/sunset-360.jpg 360w, /images/sunset-720.jpg 720w, /images/sunset-1440.jpg 1440w\" sizes=\"33.3vw\"><source srcset=\"/images/sunset-720.jpg 2x, /images/sunset-360.jpg 1x\"> <img src=\"/images/sunset.jpg\" alt=\"Picture of a Ha Long Bay sunset\"></picture>",
+		"attributes": [
+			{
+				"name": "src"
+			},
+			{
+				"name": "srcset"
+			},
+			{
+				"name": "sizes"
+			},
+			{
+				"name": "type"
+			},
+			{
+				"name": "media"
+			}
+		]
+	},
+	{
+		"name": "span",
+		"display": "block",
+		"example": "<span>I'm inside a span</span>"
+	},
+	{
+		"name": "strong",
+		"display": "inline",
+		"example": "I'm a <strong>Strong</strong> text"
+	},
+	{
+		"name": "style",
+		"meta": true,
+		"example": "<style type=\"text/css\">.some-element { color: red; }</style>",
+		"attributes": [
+			{
+				"name": "type"
+			}
+		]
+	},
+	{
+		"name": "sub",
+		"display": "inline",
+		"example": "I'm a <sub>lower</sub> text"
+	},
+	{
+		"name": "summary",
+		"display": "block",
+		"example": "<details><summary>Read more</summary><p>Content here</p></details>"
+	},
+	{
+		"name": "sup",
+		"display": "inline",
+		"example": "I'm a <sup>higher</sup> text"
+	},
+	{
+		"name": "table",
+		"display": "block",
+		"example": "<table><caption>Table caption</caption><thead><tr><th>Head First</th><th>Head Second</th></tr></thead><tfoot><tr><th>Foot First</th><th>Foot Second</th></tr></tfoot><tbody><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></tbody></table>"
+	},
+	{
+		"name": "tbody",
+		"display": "block",
+		"example": "<table><tbody><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></tbody></table>"
+	},
+	{
+		"name": "td",
+		"self-closing": false,
+		"example": "<table><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></table>",
+		"attributes": [
+			{
+				"name": "colspan"
+			},
+			{
+				"name": "rowspan"
+			}
+		]
+	},
+	{
+		"name": "template",
+		"display": "block",
+		"experimental": true,
+		"example": "<template>Placeholder for display via javascript</template>"
+	},
+	{
+		"name": "textarea",
+		"display": "inline",
+		"example": "<textarea>I'm the value of the textarea</textarea>",
+		"attributes": [
+			{
+				"name": "name"
+			},
+			{
+				"name": "autocomplete"
+			},
+			{
+				"name": "minlength"
+			},
+			{
+				"name": "maxlength"
+			},
+			{
+				"name": "placeholder"
+			},
+			{
+				"name": "cols"
+			},
+			{
+				"name": "rows"
+			},
+			{
+				"name": "wrap"
+			},
+			{
+				"name": "disabled"
+			},
+			{
+				"name": "required"
+			},
+			{
+				"name": "autofocus"
+			},
+			{
+				"name": "readonly"
+			},
+			{
+				"name": "spellcheck"
+			}
+		]
+	},
+	{
+		"name": "tfoot",
+		"display": "block",
+		"example": "<table><tfoot><tr><th>Foot First</th><th>Foot Second</th></tr></tfoot><tbody><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></tbody></table>"
+	},
+	{
+		"name": "th",
+		"self-closing": false,
+		"example": "<table><tr><th>First table header</th><th>Second table header</th></tr><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></table>"
+	},
+	{
+		"name": "thead",
+		"display": "block",
+		"example": "<table><thead><tr><th>Head First</th><th>Head Second</th></tr></thead><tbody><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></tbody></table>"
+	},
+	{
+		"name": "time",
+		"display": "inline",
+		"example": "The game starts at <time datetime=\"2017-04-29T19:00\">19:00</time>.",
+		"attributes": [
+			{
+				"name": "datetime"
+			}
+		]
+	},
+	{
+		"name": "title",
+		"meta": true,
+		"example": "<title>Page title</title>"
+	},
+	{
+		"name": "tr",
+		"self-closing": false,
+		"example": "<table><tr><td>First row first cell</td><td>First row second cell</td></tr><tr><td>Second row first cell</td><td>Second row second cell</td></tr></table>"
+	},
+	{
+		"name": "track",
+		"self-closing": true,
+		"display": "block",
+		"example": "<track></track>"
+	},
+	{
+		"name": "u",
+		"display": "inline",
+		"example": "I'm an <u>underlined</u> element"
+	},
+	{
+		"name": "ul",
+		"display": "block",
+		"example": "<ul><li>Step one</li><li>Step two</li><li>Step three</li></ul>"
+	},
+	{
+		"name": "var",
+		"display": "inline",
+		"example": "The value of <var>PI</var> is close to 3.14"
+	},
+	{
+		"name": "video",
+		"display": "block",
+		"example": "<video src=\"/assets/HTML 5 Video.mp4\" width=\"100%\" controls></video>",
+		"attributes": [
+			{
+				"name": "src"
+			},
+			{
+				"name": "autoplay"
+			},
+			{
+				"name": "controls"
+			},
+			{
+				"name": "loop"
+			},
+			{
+				"name": "muted"
+			},
+			{
+				"name": "preload"
+			},
+			{
+				"name": "poster"
+			},
+			{
+				"name": "height"
+			},
+			{
+				"name": "width"
+			}
+		]
+	},
+	{
+		"name": "wbr",
+		"display": "inline",
+		"experimental": true,
+		"example": "<wbr>The browser can insert a line break here</wbr>"
+	}
+]
