@@ -18,7 +18,7 @@
 						"details": "Link to a relative subpage"
 					},
 					{
-						"example": "<a href=\"http://example.com\">I'm a link</a>",
+						"example": "<a href=\"https://example.com\">I'm a link</a>",
 						"details": "Link to a absolute url"
 					},
 					{
@@ -578,7 +578,7 @@
 	{
 		"name": "link",
 		"meta": true,
-		"example": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/app.css\">",
+		"example": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/./app.css\">",
 		"attributes": [
 			{
 				"name": "href"
@@ -1074,7 +1074,7 @@
 	{
 		"name": "video",
 		"display": "block",
-		"example": "<video src=\"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" width=\"100%\" controls></video>",
+		"example": "<video src=\"https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" width=\"100%\" controls></video>",
 		"attributes": [
 			{
 				"name": "src"
