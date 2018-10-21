@@ -358,12 +358,12 @@
 	{
 		"name": "figcaption",
 		"display": "block",
-		"example": "<figure><img src=\"/images/world-continents.png\" alt=\"World continents\"><figcaption>World continents</figcaption></figure>"
+		"example": "<figure><img src=\"https://source.unsplash.com/random\" alt=\"World continents\"><figcaption>World continents</figcaption></figure>"
 	},
 	{
 		"name": "figure",
 		"display": "block",
-		"example": "<figure><img src=\"/images/world-continents.png\" alt=\"World continents\"></figure>"
+		"example": "<figure><img src=\"https://source.unsplash.com/random\" alt=\"World continents\"></figure>"
 	},
 	{
 		"name": "footer",
@@ -464,7 +464,7 @@
 	{
 		"name": "iframe",
 		"display": "block",
-		"example": "<iframe src=\"http://localhost:3000\">Fallback text for non-supported browsers</iframe>",
+		"example": "<frame src=\"https://eeegor.github.io/html-5-elements\">Fallback text for non-supported browsers</iframe>",
 		"attributes": [
 			{
 				"name": "src"
@@ -484,7 +484,7 @@
 		"name": "img",
 		"self-closing": true,
 		"display": "inline",
-		"example": "<img src=\"/images/sunset.jpg\" alt=\"Picture of a Ha Long Bay sunset\">",
+		"example": "<img src=\"https://source.unsplash.com/random\" alt=\"Picture of a Ha Long Bay sunset\">",
 		"attributes": [
 			{
 				"name": "src",
@@ -578,7 +578,7 @@
 	{
 		"name": "link",
 		"meta": true,
-		"example": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/style.css\">",
+		"example": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/app.css\">",
 		"attributes": [
 			{
 				"name": "href"
@@ -764,7 +764,7 @@
 	{
 		"name": "picture",
 		"experimental": true,
-		"example": "<picture><source media=\"(min-width: 800px)\" srcset=\"/images/sunset-360.jpg 360w, /images/sunset-720.jpg 720w, /images/sunset-1440.jpg 1440w\" sizes=\"33.3vw\"><source srcset=\"/images/sunset-720.jpg 2x, /images/sunset-360.jpg 1x\"> <img src=\"/images/sunset.jpg\" alt=\"Picture of a Ha Long Bay sunset\"></picture>"
+		"example": "<picture><source media=\"(min-width: 800px)\" srcset=\"https://source.unsplash.com/random 360w, https://source.unsplash.com/random 720w, https://source.unsplash.com/random 1440w\" sizes=\"33.3vw\"><source srcset=\"https://source.unsplash.com/random 2x, https://source.unsplash.com/random 1x\"> <img src=\"https://source.unsplash.com/random\" alt=\"Picture of a Ha Long Bay sunset\"></picture>"
 	},
 	{
 		"name": "pre",
@@ -828,7 +828,7 @@
 	{
 		"name": "script",
 		"meta": true,
-		"example": "<script src=\"https://example.com/script.js\"></script>",
+		"example": "<script src=\"https://eeegor.github.io/html-5-elements/app.js\"></script>",
 		"attributes": [
 			{
 				"name": "src"
@@ -886,7 +886,7 @@
 	{
 		"name": "source",
 		"self-closing": true,
-		"example": "<picture><source media=\"(min-width: 300px)\" srcset=\"/images/sunset-360.jpg 360w, /images/sunset-720.jpg 720w, /images/sunset-1440.jpg 1440w\" sizes=\"33.3vw\"><source srcset=\"/images/sunset-720.jpg 2x, /images/sunset-360.jpg 1x\"> <img src=\"/images/sunset.jpg\" alt=\"Picture of a Ha Long Bay sunset\"></picture>",
+		"example": "<picture><source media=\"(min-width: 300px)\" srcset=\"https://source.unsplash.com/random 360w, https://source.unsplash.com/random 720w, https://source.unsplash.com/random 1440w\" sizes=\"33.3vw\"><source srcset=\"https://source.unsplash.com/random 2x, https://source.unsplash.com/random 1x\"> <img src=\"https://source.unsplash.com/random\" alt=\"Picture of a Ha Long Bay sunset\"></picture>",
 		"attributes": [
 			{
 				"name": "src"

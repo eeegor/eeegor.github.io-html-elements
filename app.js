@@ -8,9 +8,9 @@ fetch('https://eeegor.github.io/html-5-elements/html-5-elements.json')
 		htmlString += 	'<h2 class="el-preview__name">' + element.name + '</h2>'
 		htmlString += 	'<p class="el-preview__details">' + (element.details ? element.details : 'Details coming soon...') + '</p>'
 		if (element.example) {
-			htmlString += 	'<div class="el-preview__example ' + (displayInline ? 'el--inline' : '') +'">' + element.example + '</div>'
+			htmlString += '<div class="el-preview__example ' + (displayInline ? 'el--inline' : '') +'">' + element.example + '</div>'
 		} else {
-			htmlString += '<p>This Element has no example</p>'
+			htmlString += '<p>This element has no example</p>'
 		}
 		htmlString += '</div>'
 	});
