@@ -1074,7 +1074,7 @@
 	{
 		"name": "video",
 		"display": "block",
-		"example": "<video src=\"/assets/HTML 5 Video.mp4\" width=\"100%\" controls></video>",
+		"example": "<video src=\"https://www.youtube.com/watch?v=dD2EISBDjWM&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB\" width=\"100%\" controls></video>",
 		"attributes": [
 			{
 				"name": "src"
