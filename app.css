@@ -48,7 +48,7 @@ select {
 }
 
 .el-preview__name,
-.el-preview__details, {
+.el-preview__details {
 	font-family: 'Helvetica Neue', sans-serif;
 	color: #333;
 }
