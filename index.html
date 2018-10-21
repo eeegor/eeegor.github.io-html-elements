@@ -10,13 +10,20 @@
 </head>
 <body id="styleguide__body">
 	<header class="styleguide__header">
-		<h1>HTML 5 Element Examples</h1>
-		<p>
-			<a href="https://eeegor.github.io/html-5-elements/html-5-elements.json">Json endpoint</a>
-		</p>
+		<div class="styleguide__container">
+			<h1 class="styleguide__title">HTML 5 Element Examples</h1>
+			<p class="styleguide__details">A comprehensive collection of <b>HTML 5 elements</b>, to quickly debug styling behavior across different styling frameworks, browsers and devices.</p>
+			<p class="styleguide__details">The following elements have no styling<sup>1</sup> applied and show the default rendering of the given browser</p>
+			<p class="styleguide__details"><sub><sup>1</sup> img and select were set to <mark>max-width: 100%</mark> to avoid horizontal overflow</sub></p>
+			<p class="styleguide__details">
+				<a class="styleguide__link" href="https://eeegor.github.io/html-5-elements/html-5-elements.json">Json endpoint</a>
+			</p>
+		</div>
 	</header>
 	<section class="styleguide__content">
-		<div id="styleguide__element-list"></div>
+		<div class="styleguide__container">
+			<div id="styleguide__element-list"></div>
+		</div>			
 	</section>
 </body>
 </html>

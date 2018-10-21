@@ -1,4 +1,4 @@
-fetch('https://eeegor.github.io/html-5-elements/html-5-elements.json')
+fetch('./html-5-elements.json')
   .then(res => res.json())
   .then(elements => {
 	var htmlString = '';
