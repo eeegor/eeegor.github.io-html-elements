@@ -1,4 +1,4 @@
-# eeegor.github.io-html-elements
+# eeegor.github.io/html-5-elements
 A comprehensive collection of <b>HTML 5 elements</b>, to quickly debug styling behavior across different styling frameworks, browsers and devices.
 
 Preview of all elements is available here: [https://eeegor.github.io/html-5-elements](https://eeegor.github.io/html-5-elements)
