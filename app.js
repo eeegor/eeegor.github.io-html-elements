@@ -1,3 +1,2 @@
-$.getJSON("html-5-elements.json", function(json) {
-    console.log(json); // this will show the info it in firebug console
-});
+var json = require('./html-5-elements.json');
+console.log('JSON', json);
