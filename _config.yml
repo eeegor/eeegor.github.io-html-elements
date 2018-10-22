@@ -1,0 +1,3 @@
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://egorkirpichev.com" # the base hostname & protocol for your site, e.g. http://example.com
+relative_permalink: true
