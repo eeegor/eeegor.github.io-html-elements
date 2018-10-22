@@ -62,7 +62,7 @@
 		"name": "area",
 		"display": "inline",
 		"details": "Area element to use with media",
-		"example": "<img src=\"https://egorkirpichev.com/html-5-elements/assets/world-continents.png\" width=\"320\" height=\"160\" orgwidth=\"320\" orgheight=\"160\" usemap=\"#world-continents\"><map name=\"world-continents\"><area title=\"North America\" href=\"https://en.wikipedia.org/wiki/North_America\" shape=\"poly\" coords=\"48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69\"><area title=\"South America\" href=\"https://en.wikipedia.org/wiki/South_America\" shape=\"poly\" coords=\"48,88,61,74,119,99,95,160,66,159\"><area title=\"Europe\" href=\"https://en.wikipedia.org/wiki/Europe\" shape=\"poly\" coords=\"124,49,145,46,158,50,187,43,198,6,146,1,115,21\"><area title=\"Africa\" href=\"https://en.wikipedia.org/wiki/Africa\" shape=\"poly\" coords=\"121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86\"><area title=\"Asia\" href=\"https://en.wikipedia.org/wiki/Asia\" shape=\"poly\" coords=\"166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42\"><area title=\"Australia\" href=\"https://en.wikipedia.org/wiki/Australia_(continent)\" shape=\"poly\" coords=\"257,107,263,85,314,89,316,137,294,151,249,132,248,114\"></map>",
+		"example": "<img src=\".f/assets/world-continents.png\" width=\"320\" height=\"160\" orgwidth=\"320\" orgheight=\"160\" usemap=\"#world-continents\"><map name=\"world-continents\"><area title=\"North America\" href=\"https://en.wikipedia.org/wiki/North_America\" shape=\"poly\" coords=\"48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69\"><area title=\"South America\" href=\"https://en.wikipedia.org/wiki/South_America\" shape=\"poly\" coords=\"48,88,61,74,119,99,95,160,66,159\"><area title=\"Europe\" href=\"https://en.wikipedia.org/wiki/Europe\" shape=\"poly\" coords=\"124,49,145,46,158,50,187,43,198,6,146,1,115,21\"><area title=\"Africa\" href=\"https://en.wikipedia.org/wiki/Africa\" shape=\"poly\" coords=\"121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86\"><area title=\"Asia\" href=\"https://en.wikipedia.org/wiki/Asia\" shape=\"poly\" coords=\"166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42\"><area title=\"Australia\" href=\"https://en.wikipedia.org/wiki/Australia_(continent)\" shape=\"poly\" coords=\"257,107,263,85,314,89,316,137,294,151,249,132,248,114\"></map>",
 		"attributes": [
 			{
 				"name": "title"
@@ -95,7 +95,7 @@
 	{
 		"name": "audio",
 		"display": "block",
-		"example": "<audio src=\"https://egorkirpichev.com/html-5-elements/assets/8000__cfork__cf-fx-bloibb.mp3\" controls></audio>",
+		"example": "<audio src=\".f/assets/8000__cfork__cf-fx-bloibb.mp3\" controls></audio>",
 		"attributes": [
 			{
 				"name": "src",
@@ -599,7 +599,7 @@
 	{
 		"name": "map",
 		"display": "block",
-		"example": "<img src=\"https://egorkirpichev.com/html-5-elements/assets/world-continents.png\" width=\"320\" height=\"160\" orgwidth=\"320\" orgheight=\"160\" usemap=\"#world-continents\"><map name=\"world-continents\"><area title=\"North America\" href=\"https://en.wikipedia.org/wiki/North_America\" shape=\"poly\" coords=\"48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69\"><area title=\"South America\" href=\"https://en.wikipedia.org/wiki/South_America\" shape=\"poly\" coords=\"48,88,61,74,119,99,95,160,66,159\"><area title=\"Europe\" href=\"https://en.wikipedia.org/wiki/Europe\" shape=\"poly\" coords=\"124,49,145,46,158,50,187,43,198,6,146,1,115,21\"><area title=\"Africa\" href=\"https://en.wikipedia.org/wiki/Africa\" shape=\"poly\" coords=\"121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86\"><area title=\"Asia\" href=\"https://en.wikipedia.org/wiki/Asia\" shape=\"poly\" coords=\"166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42\"><area title=\"Australia\" href=\"https://en.wikipedia.org/wiki/Australia_(continent)\" shape=\"poly\" coords=\"257,107,263,85,314,89,316,137,294,151,249,132,248,114\"></map>",
+		"example": "<img src=\".f/assets/world-continents.png\" width=\"320\" height=\"160\" orgwidth=\"320\" orgheight=\"160\" usemap=\"#world-continents\"><map name=\"world-continents\"><area title=\"North America\" href=\"https://en.wikipedia.org/wiki/North_America\" shape=\"poly\" coords=\"48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69\"><area title=\"South America\" href=\"https://en.wikipedia.org/wiki/South_America\" shape=\"poly\" coords=\"48,88,61,74,119,99,95,160,66,159\"><area title=\"Europe\" href=\"https://en.wikipedia.org/wiki/Europe\" shape=\"poly\" coords=\"124,49,145,46,158,50,187,43,198,6,146,1,115,21\"><area title=\"Africa\" href=\"https://en.wikipedia.org/wiki/Africa\" shape=\"poly\" coords=\"121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86\"><area title=\"Asia\" href=\"https://en.wikipedia.org/wiki/Asia\" shape=\"poly\" coords=\"166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42\"><area title=\"Australia\" href=\"https://en.wikipedia.org/wiki/Australia_(continent)\" shape=\"poly\" coords=\"257,107,263,85,314,89,316,137,294,151,249,132,248,114\"></map>",
 		"attributes": [
 			{
 				"name": "name"
@@ -677,7 +677,7 @@
 	{
 		"name": "object",
 		"display": "block",
-		"example": "<object type=\"application/x-shockwave-flash\" data=\"https://egorkirpichev.com/html-5-elements/assets/golf.swf\" width=\"800\" height=\"360\"><param name=\"movie\" value=\"https://egorkirpichev.com/html-5-elements/assets/golf.swf\"><param name=\"wmode\" value=\"transparent\"><p>You need to enable Flash to view this content.</p></object>",
+		"example": "<object type=\"application/x-shockwave-flash\" data=\".f/assets/golf.swf\" width=\"800\" height=\"360\"><param name=\"movie\" value=\".f/assets/golf.swf\"><param name=\"wmode\" value=\"transparent\"><p>You need to enable Flash to view this content.</p></object>",
 		"attributes": [
 			{
 				"name": "data"
@@ -751,7 +751,7 @@
 	{
 		"name": "param",
 		"self-closing": true,
-		"example": "<object type=\"application/x-shockwave-flash\" data=\"https://egorkirpichev.com/html-5-elements/assets/golf.swf\" width=\"800\" height=\"360\"><param name=\"movie\" value=\"https://egorkirpichev.com/html-5-elements/assets/golf.swf\"><param name=\"wmode\" value=\"transparent\"><p>You need to enable Flash to view this content.</p></object>",
+		"example": "<object type=\"application/x-shockwave-flash\" data=\".f/assets/golf.swf\" width=\"800\" height=\"360\"><param name=\"movie\" value=\".f/assets/golf.swf\"><param name=\"wmode\" value=\"transparent\"><p>You need to enable Flash to view this content.</p></object>",
 		"attributes": [
 			{
 				"name": "name"
